@@ -11,15 +11,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InsertNumber_Task", "Insert
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FindNextBiggerNumber_Task", "FindNextBiggerNumber_Task", "{EC1D4F45-62AC-4FC3-AB54-598FB4C59B67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindBiggerNumber", "FindBiggerNumber\FindBiggerNumber.csproj", "{A8215841-245F-48EF-B9F8-71C736FA9282}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindBiggerNumber", "FindBiggerNumber\FindBiggerNumber.csproj", "{A8215841-245F-48EF-B9F8-71C736FA9282}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindBiggerNumber.Tests", "FindBiggerNumber.Tests\FindBiggerNumber.Tests.csproj", "{59809CDC-F036-4DF6-889B-8C1348C84A04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindBiggerNumber.Tests", "FindBiggerNumber.Tests\FindBiggerNumber.Tests.csproj", "{59809CDC-F036-4DF6-889B-8C1348C84A04}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FilterDigit_Task", "FilterDigit_Task", "{7274B039-F80E-4355-83D6-BC49A68ADC9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterDigit", "FilterDigit\FilterDigit.csproj", "{1ED50E32-34AC-4E52-B41C-F40752C3FE23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterDigit", "FilterDigit\FilterDigit.csproj", "{1ED50E32-34AC-4E52-B41C-F40752C3FE23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterDigit.Tests", "FilterDigit.Tests\FilterDigit.Tests.csproj", "{26AC1289-A383-4A56-8417-2A043BDDA2DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterDigit.Tests", "FilterDigit.Tests\FilterDigit.Tests.csproj", "{26AC1289-A383-4A56-8417-2A043BDDA2DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FindNewtonRoot_Task", "FindNewtonRoot_Task", "{6C44F68D-4619-47AE-B0DB-6BC39A81EC68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindNewtonRoot", "FindNewtonRoot\FindNewtonRoot.csproj", "{4B2F219D-DDEA-4C46-963E-4DD43B74BF1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindNewtonRoot.Tests", "FindNewtonRoot.Tests\FindNewtonRoot.Tests.csproj", "{F08B50CE-8BA7-4EA1-94FC-E23564679BCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,14 @@ Global
 		{26AC1289-A383-4A56-8417-2A043BDDA2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26AC1289-A383-4A56-8417-2A043BDDA2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26AC1289-A383-4A56-8417-2A043BDDA2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B2F219D-DDEA-4C46-963E-4DD43B74BF1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B2F219D-DDEA-4C46-963E-4DD43B74BF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B2F219D-DDEA-4C46-963E-4DD43B74BF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B2F219D-DDEA-4C46-963E-4DD43B74BF1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F08B50CE-8BA7-4EA1-94FC-E23564679BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08B50CE-8BA7-4EA1-94FC-E23564679BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F08B50CE-8BA7-4EA1-94FC-E23564679BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F08B50CE-8BA7-4EA1-94FC-E23564679BCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +76,8 @@ Global
 		{59809CDC-F036-4DF6-889B-8C1348C84A04} = {EC1D4F45-62AC-4FC3-AB54-598FB4C59B67}
 		{1ED50E32-34AC-4E52-B41C-F40752C3FE23} = {7274B039-F80E-4355-83D6-BC49A68ADC9C}
 		{26AC1289-A383-4A56-8417-2A043BDDA2DD} = {7274B039-F80E-4355-83D6-BC49A68ADC9C}
+		{4B2F219D-DDEA-4C46-963E-4DD43B74BF1F} = {6C44F68D-4619-47AE-B0DB-6BC39A81EC68}
+		{F08B50CE-8BA7-4EA1-94FC-E23564679BCE} = {6C44F68D-4619-47AE-B0DB-6BC39A81EC68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EEECCA5C-EBBC-4FA1-B4B6-B465B9F3037B}
