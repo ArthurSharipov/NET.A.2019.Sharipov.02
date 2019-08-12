@@ -12,7 +12,7 @@ namespace FindNewtonRoot.Tests
         //[TestCase(0.0279936, 7, 0.0001, ExpectedResult = 0.6)]
         //[TestCase(0.004241979, 9, 0.00000001, ExpectedResult = 0.545)]
         //[TestCase(0.0081, 4, 0.1, ExpectedResult = 0.3)]
-        //public double FindNthRoot(double number, double degree, double accuracy)
+        //public double FindNthRootTest(double number, double degree, double accuracy)
         //{
         //    return Find.FindNthRoot(number, degree, accuracy);
         //}
@@ -23,7 +23,7 @@ namespace FindNewtonRoot.Tests
         [TestCase(0.0279936, 7, 0.0001, 0.6)]
         [TestCase(0.004241979, 9, 0.00000001, 0.545)]
         [TestCase(0.0081, 4, 0.1, 0.3)]
-        public void FindNthRoot(double number, int degree, double accuracy, double expectedResult) 
+        public void FindNthRootTest(double number, int degree, double accuracy, double expectedResult) 
             => Assert.AreEqual(Find.FindNthRoot(number, degree, accuracy), expectedResult, accuracy);
     }
 }

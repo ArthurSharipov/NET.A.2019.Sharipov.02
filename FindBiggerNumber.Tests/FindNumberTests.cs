@@ -13,7 +13,7 @@ namespace FindBiggerNumberTests
         [TestCase(20, ExpectedResult = -1)]
         [TestCase(1, ExpectedResult = -1)]
         [TestCase(1234312, ExpectedResult = 1234321)]
-        public int FindNextBiggerNumber(int number)
+        public int FindNextBiggerNumberTest(int number)
         {
             var findNumber = new FindNumber();
             return findNumber.FindNextBiggerNumber(number);

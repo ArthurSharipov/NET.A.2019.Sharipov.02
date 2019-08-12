@@ -3,8 +3,17 @@ using System.Collections.Generic;
 
 namespace FilterDigit
 {
+    /// <summary>
+    /// Filter class
+    /// </summary>
     public class Filter
     {
+        /// <summary>
+        /// Method that gets array, filter it and return new array of filtered symbols.
+        /// </summary>
+        /// <param name="digit"></param>
+        /// <param name="array"></param>
+        /// <returns>Filtered array</returns>
         public int[] FilterDigit(byte digit, params int[] array)
         {
             var filtered = new List<int>();

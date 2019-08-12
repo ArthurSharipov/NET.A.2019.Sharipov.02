@@ -3,8 +3,16 @@ using System.Text;
 
 namespace FindBiggerNumber
 {
+    /// <summary>
+    /// Find bigger number class.
+    /// </summary>
     public class FindNumber
     {
+        /// <summary>
+        /// Method that gets a number and returns bigger number consisting of the numbers of the source number.
+        /// </summary>
+        /// <param name="number"></param>
+        /// <returns>Next bigger number</returns>
         public int FindNextBiggerNumber(int number)
         {
             StringBuilder stringBuilder = new StringBuilder();
@@ -44,6 +52,12 @@ namespace FindBiggerNumber
             return int.Parse(stringBuilder.ToString());
         }
 
+        /// <summary>
+        /// Takes an array and rearranges the values ​​of the array in accordance with the passed parameters.
+        /// </summary>
+        /// <param name="items"></param>
+        /// <param name="right"></param>
+        /// <param name="left"></param>
         private void Swap(int[] items, int right, int left)
         {
             int temp = items[right];
